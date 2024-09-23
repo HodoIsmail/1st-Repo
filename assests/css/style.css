@@ -77,11 +77,14 @@ display: none;
  }
 
  /* Main Content*/
+
 main{
     background-color: aqua;
     flex:1 0 auto;
-    margin-top: 47px;
+   margin-top: 47px;
 }
+
+
 /* Footer*/
 
 
@@ -129,7 +132,7 @@ main{
         margin: 0 0.5rem;
     }
 
-    main{
+    #main{
         margin-top: 79px;
     }
 
