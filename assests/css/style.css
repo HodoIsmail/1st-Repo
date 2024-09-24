@@ -153,6 +153,28 @@ hr{
     justify-content: center;
 
 }
+
+/*MEETUP SECTION*/
+
+/*meetup times section*/
+#times {
+    background: URL('../images//dublin-city.webp') no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div{
+    color:#fafafa;
+    background-color: rgba(0,0,0, .6);
+    padding: 15px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid white;
+}
+#times h3{
+    color: #fafafa;
+}
 /* Footer*/
 
 
@@ -169,6 +191,7 @@ hr{
     padding: 5%;
     color: #3a3a3a;
 }
+
 
 
 
@@ -222,12 +245,15 @@ hr{
     align-self: flex-end;
 }
 
+
+}
+
 @media screen and (min-width: 992px){
 #menu  a:hover{
     border-bottom: 1px solid #252525;
 }
     
-}
+} 
 
 @media screen and (min-width: 1200px){
 
